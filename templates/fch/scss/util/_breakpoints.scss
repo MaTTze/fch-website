@@ -1,0 +1,16 @@
+@import "breakpoint";
+
+$small-breakpoint: 795px;
+$medium-breakpoint: 1023px;
+
+// We can use all of the Breakpoint control variables with respond-to as well!
+$breakpoint-no-query-fallbacks: true !default;
+$breakpoint-to-ems: true !default;
+
+// These numbers were chosen at random. Don't look too far into them.
+$breakpoints: add-breakpoint('small', max-width $small-breakpoint);
+$breakpoints: add-breakpoint('not small', ($small-breakpoint+1));
+$breakpoints: add-breakpoint('medium', ($small-breakpoint + 1) $medium-breakpoint);
+$breakpoints: add-breakpoint('large', ($medium-breakpoint + 1));
+$breakpoints: add-breakpoint('not large', max-width $medium-breakpoint);
+

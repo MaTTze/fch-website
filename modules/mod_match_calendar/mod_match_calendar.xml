@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Match Calendar</name>
+    <author>Matthias Gollwitzer</author>
+    <version>1.0.0</version>
+    <description>shows a calendar with bfv-match data</description>
+    <files>
+        <filename>mod_match_calendar.xml</filename>
+        <filename module="mod__match_calendar">mod_match_calendar.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <media folder="media" destination="mod_match_calendar">
+    	<folder>js</folder>
+    	<folder>css</folder>
+    </media>
+    <config>
+    	<fields name="params">
+    		<fieldset name="basic" label="Basic Module Config">
+    			<field type="text" name="match1" label="Link 1"/>
+    			<field type="text" name="match2" label="Link 2"/>
+    			<field type="text" name="match3" label="Link 3"/>
+    			<field type="text" name="match4" label="Link 4"/>
+    		</fieldset>
+    	</fields>
+    </config>
+</extension>

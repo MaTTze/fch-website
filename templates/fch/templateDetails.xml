@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="template">
+        <name>fch-test</name>
+        <creationDate>2014-04-18</creationDate>
+        <author>Matthias Gollwitzer</author>
+        <authorEmail>me@mattze.de</authorEmail>
+        <authorUrl>http://mattze.de</authorUrl>
+        <copyright>Matthias Gollwitzer 2014</copyright>
+        <version>0.0.2</version>
+        <description>Template for FCH website</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+				<folder>js</folder>
+        </files>
+        <positions>
+                <position>navigation</position>
+                <position>sidenavigation</position>
+                <position>aside</position>
+                <position>content</position>
+                <position>leftside</position>
+                <position>footer</position>
+                <position>footer-right</position>
+        </positions>
+</extension>

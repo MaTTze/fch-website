@@ -1,0 +1,124 @@
+#calendar {
+  width: 100%;
+  
+  .calMain {
+    width: 90%;
+    min-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  table {
+  border: 1px solid black;
+  width: 100%;
+  
+  
+    tbody {
+      font-size: 0.9em;
+    }
+    
+    th {
+      text-align: center;
+    }
+
+    td {
+      border: 1px dotted lightgrey ;
+      text-align: center;
+      background-color: whitesmoke;
+    
+  
+      .day-number {
+        margin: 1px;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 0;
+        border-radius: 3px;
+        border: 2px solid whitesmoke;
+      }
+      
+      .out {
+        color: grey;
+      }     
+      
+      .match {
+        position: relative;
+        .popup {
+          position:absolute;
+          right:110%;
+          top:-150%;
+          display: none;
+          background-color: whitesmoke;
+          padding: 0.2em;
+          border: 2px solid lightgrey;
+          border-radius: 8px;
+          z-index: 1300;
+          color: black;
+          div {
+            margin: 0.3em 0;
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+          }
+          span {
+            white-space: nowrap;
+            display: inline-block;
+            vertical-align: middle;
+          }
+          span.summary {
+            display: block;
+            margin-bottom: 0.4em;
+          }
+          span.time {
+            font-size: 0.9em;
+            margin-right: 1em;
+          }
+          span.location {
+            font-size: 0.85em; 
+          }
+        }
+        &:hover .popup, &:focus .popup {
+          display: block;
+        }
+      }
+    
+      .match1{
+        border-left: 2px solid red;
+      }
+      .match2 {
+        border-right: 2px solid blue;
+      }
+      .match3 {
+        border-top: 2px solid green;
+      }
+      .match4 {
+        border-bottom: 2px solid yellow;
+      }
+    }
+  }
+  
+  tfoot {
+    font-size: 0.6em;
+  }
+  
+  button {
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 0;
+    padding-bottom: 2px;
+    margin: 0;
+  }
+  
+  th.next button {
+    padding-left: 2px;
+  }
+  
+  th.current button {
+    padding-right: 2px;
+  }
+}

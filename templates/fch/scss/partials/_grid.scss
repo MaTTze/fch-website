@@ -1,0 +1,72 @@
+// Requirements
+// ============
+
+@import "susy";
+
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: split,
+  container: auto,
+  container-position: center,
+  column-width: false,
+  global-box-sizing: border-box,
+  last-flow: to,
+);
+
+$susy-large: (
+  columns: 24,
+  gutters: .35,
+);
+
+
+#main_container {
+  clear: left;
+  @include container();
+}
+
+#left-side-top {
+  @include respond-to('not small'){
+    @include with-layout($susy-large){
+      @include span(4);
+    }
+  }
+  @include respond-to('small'){
+    width: 20em;
+    min-width: 75%;
+    max-width: 94%;
+  }
+}
+
+#left-side-bottom {
+  @include respond-to('not small'){
+    @include with-layout($susy-large){
+      @include span(4);
+    }
+  }
+  @include respond-to('small'){
+    width: 20em;
+    min-width: 75%;
+    max-width: 94%;
+  }
+}
+
+#content {
+  @include respond-to('not small'){
+    @include with-layout($susy-large){
+      @include span(14 last);
+    }
+  }
+}
+
+#aside {
+  @include respond-to('small'){
+    display: none;
+  }
+  @include respond-to('not small'){
+    @include with-layout($susy-large){
+      @include span(6 last);
+    }
+  }
+}

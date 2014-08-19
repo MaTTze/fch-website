@@ -1,0 +1,81 @@
+$logo-width: 105px;
+$logo-height: 120px;
+    
+
+#header {
+  width: 20em;
+  min-width: 75%;
+  max-width: 94%;
+  min-height: $logo-height / 2 + 6px;
+  @include respond-to('not small'){
+  	width: 25em;	
+  }
+   
+  @include respond-to('medium'){
+    min-height: $logo-height * 0.75 + 6px;
+  }
+  
+  @include respond-to('large'){
+    min-height: $logo-height + 6px;
+  }
+  
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  
+  h1 {
+    text-align: center;
+    font-size: 1.75em;
+    @include respond-to('not small'){
+    padding-top: 15px;
+    }
+    margin: 0px;
+    float: none;
+    line-height: initial;
+    @include respond-to('large'){
+      font-size: 3em;
+      padding-bottom: 8px;
+    }
+
+    @include respond-to('medium'){
+      font-size: 2.25em;
+    }
+    
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 2px;
+    font-size: 1.25em;
+    line-height: initial;
+    @include respond-to('not small'){
+      font-size: 1.5em;
+    }
+  }
+  
+  .logo {
+    width: $logo-width/2;
+    height: $logo-height/2;
+    @include respond-to('medium'){
+      width: $logo-width*0.75;
+      height: $logo-height*0.75;
+    }
+    @include respond-to('large'){
+      width: $logo-width;
+      height: $logo-height;
+    }
+    margin: 3px;
+  }
+  
+  .centering{
+    display: inline-block;
+    min-height: $logo-height / 2 + 6px;
+  }
+  
+  .right .logo{
+    @include respond-to('small'){
+      display: none;
+    }
+  }  
+}

@@ -1,0 +1,3334 @@
+div.egmMain .egm-autocomplete-loading {
+	background: url("images/jquery-ui/ui-anim_basic_16x16.gif") no-repeat
+		scroll right center white;
+}
+
+div.egmMain * {
+	color: inherit;
+	font-size: 0.9em;
+}
+
+div.egmMain img {
+	border: 0 none;
+}
+
+div.egmMain table {
+	border-collapse: collapse;
+}
+
+div.egmMain {
+	/*width: 94%;*/
+	color: #444444;
+}
+
+/* MatchMedia */
+div.egmMain .ww_headline_media {
+	text-align: left;
+}
+/* MatchMedia */
+div.egmMain .ww_headline_berichte {
+	text-align: left;
+}
+
+div.egmMain ul {
+	list-style-type: disc;
+}
+
+table.egm,div.egm {
+	width: 100%;
+}
+
+ul.egmTooltip {
+	margin-left: 20px;
+	width: 250px;
+}
+
+ul.egmTooltip>li {
+	line-height: 20px;
+}
+
+div.egmMain button {
+	background-image: url(images/gradients/gruen-verlauf18_1.png);
+	background-repeat: repeat-x;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	line-height: 14px;
+}
+
+div.egmMain button.egmButtonDisabled {
+	background-image: url(images/gradients/dunkelgrau-verlauf-18_1.png);
+	background-repeat: repeat-x;
+	color: white;
+}
+
+div.egmMain input {
+	border: thin solid #CCCCCC;
+}
+
+div.egmMain select {
+	border: thin solid #CCCCCC;
+	background-image:
+		url("images/gradients/grau-verlauf-25-alternativ2.png");
+	height: 22px;
+}
+
+div.egmMain option {
+	background-color: #f9f9f9;
+}
+
+div.egmMain textarea {
+	border: thin solid #CCCCCC;
+}
+
+div.egmMain img:hover {
+	text-decoration: none;
+}
+
+div.egmMain table.egmTab a:hover {
+	text-decoration: none;
+}
+
+div.egmMain table.egmTabCup a:hover {
+	text-decoration: none;
+}
+
+div.egmMain table.egmTabTables a:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmMatchInfoLink:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmLiveTickerIcon:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmMatchInfoLinkDisabled:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmMatchMediaLink:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmMatchDaySwitch:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmMatchInfoSwitch:hover {
+	text-decoration: none;
+}
+
+div.egmMain a.egmAssociationLogo:hover {
+	text-decoration: none;
+}
+
+div.egmMain a:link {
+	text-decoration: none;
+}
+
+div.egmMain a:visited {
+	text-decoration: none;
+}
+
+div.egmMain a:focus {
+	text-decoration: none;
+}
+
+div.egmMain a:hover {
+	text-decoration: underline;
+}
+
+div.egmMain a:active {
+	text-decoration: none;
+}
+
+div.egmTableName {
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	border-top: thin solid #CCCCCC;
+	font-weight: bold;
+	line-height: 32px;
+	padding-left: 10px;
+	background-image:
+		url(images/gradients/grau-verlauf-32-alternativ2.png);
+	background-repeat: repeat-x;
+	text-transform: uppercase;
+}
+
+td.egmDummyLogoClub {
+	background-image: url(images/dummy_logo.png);
+	background-position: 50px center;
+	background-repeat: no-repeat;
+	background-size: 80px 90px;
+}
+
+td.egmDummyLogoAssociation {
+	background-image: url(images/dummy_logo.png);
+	background-repeat: no-repeat;
+	background-size: 40px 50px;
+}
+
+div.egmTooltipHeader {
+	background-image: url(images/gradients/gruen-verlauf26.png);
+	background-repeat: repeat-x;
+	color: white;
+	line-height: 26px;
+	padding-left: 8px;
+	text-align: left;
+	font-weight: bold;
+}
+
+div.egmTooltipHeaderContent {
+	background-image: url(images/gradients/info-verlauf-92.png);
+	background-repeat: repeat-x;
+}
+
+div.egmFollowUp,td.egmFollowUp {
+	margin-top: 10px;
+}
+
+div.egmClubInfoMatchTableHeader {
+	background-color: #97cb38;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: thin solid #CCCCCC;
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	margin-top: 10px;
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+div.egmClubInfoMatchTableFooter {
+	background-color: #F2F2F2;
+	color: #ff6600;
+	border-bottom: thin solid #CCCCCC;
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	padding: 5px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+div.egmRotatedHeader {
+	height: 20px;
+	margin-bottom: 95px;
+	margin-left: -76px;
+	margin-top: 85px;
+	position: relative;
+	text-align: left;
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	width: 200px;
+	font-weight: normal;
+}
+
+div.egmClubInfo {
+	border: thin solid #CCCCCC;
+}
+
+div.egmClubFixtureList {
+	border: thin solid #CCCCCC;
+}
+
+div.egmClubInfoScrollable {
+	overflow: auto;
+	height: 250px;
+}
+
+div.egmClubFixtureListScrollable {
+	overflow: auto;
+	height: 250px;
+}
+
+div.egmClubInfoHeader {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #97CB38;
+	padding: 5px;
+	text-align: left;
+}
+
+div.egmClubFixtureListHeader {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #97CB38;
+	padding: 5px;
+	text-align: left;
+}
+
+div#egmClubFixtureListTeamChoiceInfo {
+	padding: 5px;
+	background-color: #f2f2f2;
+}
+
+div#egmClubInfoTableStart {
+	margin-right: 4px;
+}
+
+div#egmClubInfoTableEnd {
+	margin-left: 4px;
+}
+
+div#egmClubFixtureListTableStart {
+	margin-right: 8px;
+}
+
+table.egmClubFixtureListTableEnd {
+	border: thin solid #cccccc;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+div#egmClubFixtureListInputVenues {
+	background-color: #97CB38;
+	color: black;
+	border: thin solid #CCCCCC;
+	padding: 5px;
+	font-weight: bold;
+}
+
+div.egmTooltip {
+	
+}
+
+div#egmTableClubHeader {
+	background: none repeat scroll 0 0 #F2F2F2;
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	font-weight: bold;
+	padding: 5px;
+}
+
+div#ww_media {
+	padding-top: 20px;
+}
+
+div#egmTableComment {
+	margin-top: 10px;
+}
+
+div#egmTableComment {
+	margin-top: 10px;
+}
+
+div#egmClubFixtureListInfoTitle {
+	font-weight: bold;
+}
+
+div#egmClubFixtureListInfoContent {
+	
+}
+
+span#egmResultDecorations {
+	margin-left: 3px;
+	/*position: relative;*/
+	/*text-align: center;*/
+	/*top: -2px;*/
+	font-size: 21px;
+}
+
+span.egmListItem {
+	display: list-item;
+	list-style-position: inside;
+}
+
+span#egmClubFixtureListTimeFrom {
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+span#egmClubFixtureListTimeTo {
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+span.egmMatchDayScrollLink {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+span.egmTabTablesLink {
+	vertical-align: middle;
+}
+
+img.egmTriangleTabTables {
+	vertical-align: middle;
+}
+
+table.egmSnippetHead {
+	text-align: center;
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	text-align: left;
+	margin-top: 11px;
+}
+
+table.egmTab {
+	text-align: center;
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	height: 27px;
+}
+
+table.egmTabStats {
+	margin-top: 10px;
+	border-right: none;
+}
+
+table.egmTabCup {
+	text-align: center;
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+}
+
+table.egmTabTables {
+	height: 34px;
+	background-image: url(images/gradients/grau-verlauf-34.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	table-layout: auto;
+}
+
+table.egmSnippetControl {
+	height: 34px;
+	background-image: url(images/gradients/grau-verlauf-34.png);
+	background-repeat: repeat-x;
+	background-color: #edebeb;
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	table-layout: auto;
+}
+
+table.egmAdditionalInformation {
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+	border-collapse: separate;
+	width: 100%;
+}
+
+div#egmWidgetPanel {
+	line-height: 26px;
+	padding-left: 5px;
+}
+
+table.egmWidgetRegistration {
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+	background-image: url(images/gradients/grau-verlauf-34.png);
+	background-repeat: repeat-x;
+	background-color: #ecebeb;
+}
+
+table.egmWidgetCreation {
+	margin-top: 10px;
+}
+
+table.egmWidgetCreation td {
+	height: 26px;
+	padding-left: 5px;
+}
+
+table.egmWidgetCreation input {
+	height: 22px;
+}
+
+table.egmWidgetCreation tr:nth-child(1)>td {
+	font-weight: bold;
+}
+
+table.egmWidgetCreation td:nth-child(1) {
+	width: 150px;
+}
+
+table.egmWidgetCreation tr:nth-child(2) input {
+	width: 100%;
+}
+
+table.egmWidgetCreation tr:nth-child(3) textarea {
+	width: 100%;
+}
+
+table.egmWidgetCreation tr:nth-child(4) span {
+	vertical-align: super;
+}
+
+table.egmWidgetCreation tr:nth-child(6)>td {
+	height: 34px;
+}
+
+div#egmWidgetListKeysHeader {
+	margin-top: 10px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+table.egmWidgetListKeys {
+	width: 100%;
+}
+
+table.egmWidgetListKeys td {
+	padding-left: 5px;
+	word-wrap: break-word;
+	vertical-align: middle;
+	height: 26px;
+}
+
+table.egmWidgetListKeys tr:nth-child(1)>td {
+	font-weight: bold;
+	border-right: none !important;
+	height: 34px;
+	background-color: inherit;
+}
+
+table.egmWidgetListKeys td:nth-child(1),table.egmWidgetListKeys td:nth-child(2)
+	{
+	border-right: thin solid #cccccc;
+}
+
+table.egmWidgetListKeys td:nth-child(2) {
+	width: 100px;
+}
+
+table.egmWidgetListKeys td:nth-child(3) {
+	width: 30px;
+}
+
+div#egmWidgetInfoAPI {
+	margin-top: 10px;
+}
+
+table.egmSnippetContent {
+	width: 100%;
+	border: thin solid #cccccc;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+table.egmMatchInfoLineup {
+	margin-top: 10px;
+}
+
+table.egmTableLayoutFixed {
+	table-layout: fixed !important;
+}
+
+table.egmMatchDaySwitch {
+	width: 100%;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+	background-image: url(images/gradients/grau-verlauf-26_1.png);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	height: 26px;
+}
+
+table.egmMatchDaySwitch td {
+	vertical-align: middle;
+}
+
+table#egmFixtureList th {
+	background-color: white;
+}
+
+table#egmClubFixtureListInputTime {
+	background-color: #F2F2F2;
+	border: thin solid #CCCCCC;
+	margin-top: 8px;
+	table-layout: auto;
+	width: 100%;
+}
+
+table#egmClubFixtureListContent {
+	margin-top: 8px;
+}
+
+table#egmClubFixtureListContent td {
+	vertical-align: top;
+}
+
+table#egmClubFixtureListControl {
+	margin-top: 8px;
+	border-top: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+	background-color: #F2F2F2;
+}
+
+table#egmGroupTable {
+	margin-top: 10px;
+}
+
+table#egmClubTeams {
+	text-align: left !important;
+}
+
+table#egmClubTeams th,table#egmClubTeams td {
+	padding: 3px 0 3px 16px;
+}
+
+th.egmSnippetContent {
+	background-color: #F2F2F2;
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+th.egmSnippetHead {
+	text-transform: uppercase;
+	background-image:
+		url(images/gradients/grau-verlauf-32-alternativ2.png);
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	border: thin solid #cccccc;
+	text-align: left;
+	padding-left: 6px;
+	height: 32px;
+	background-repeat: repeat-x;
+}
+
+th.egmMatchInfo {
+	background-image:
+		url(images/gradients/grau-verlauf-32-alternativ2.png);
+	background-repeat: repeat-x;
+	text-transform: uppercase;
+	height: 32px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: middle;
+	border-top: thin solid #cccccc;
+}
+
+th.egmClubInfo {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #97cb38;
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+th.egmClubFixtureList {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #97cb38;
+	padding: 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+th.egmClubTeams {
+	background-color: #99CC33;
+	color: black;
+	text-align: left !important; /* for IE */
+}
+
+div.egmSnippetContentEmpty {
+	border-top: thin solid #cccccc;
+}
+
+div.egmLegendTitle {
+	display: inline;
+}
+
+div.egmLegendTitleClosed {
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.egmLegendTitleOpend {
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#egmWidgetInfo {
+	margin-top: 5px;
+}
+
+button#egmWidgetRegisterButton {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+table.egmLegendTable {
+	background-color: #F2F2F2;
+	margin-top: 5px;
+}
+
+table.egmLegendTable td {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+table.egmLegendTable input {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 22px;
+}
+
+table.egmLegendTable textarea {
+	padding: 5px;
+}
+
+col.egmLegendTableCol1 {
+	width: 50px;
+}
+
+col.egmLegendTableCol2 {
+	
+}
+
+col.egmLegendTableCol3 {
+	width: 50px;
+}
+
+col.egmLegendTableCol4 {
+	
+}
+
+td.egmRescheduledMathesTitle {
+	background-color: #dadada;
+}
+
+span.egmLegendKey {
+	color: #97CB38;
+	font-weight: bold;
+	margin-left: 0px;
+}
+
+td.egmLegendTableTitle {
+	font-weight: bold;
+	text-align: left;
+	text-transform: uppercase;
+	background-image:
+		url("images/gradients/grau-verlauf-32-alternativ2.png");
+	background-repeat: repeat-x;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: thin solid #cccccc;
+}
+
+td.egmRowLegend {
+	padding: 5px 8px;
+	text-align: left;
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+}
+
+span#egmWrongResultServerResponse {
+	padding: 5px;
+}
+
+td#egmWidgetCreatePanel {
+	text-align: left;
+}
+
+td#egmWidgetCreatePanel div {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+span#egmMatchInfoMatchNumber {
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+span.egmMatchNotAllocated {
+	text-transform: uppercase;
+}
+
+input#egmWrongResultFirstName {
+	width: 180px;
+	margin-top: 10px;
+}
+
+input#egmWrongResultLastName {
+	width: 180px;
+	margin-top: 10px;
+}
+
+input#egmWrongResultMail {
+	width: 180px;
+	margin-top: 10px;
+}
+
+input#egmWrongResultSubject {
+	width: 585px;
+	margin-top: 15px;
+}
+
+input#egmWrongResultCaptchaCode {
+	margin-top: 7px;
+}
+
+textarea#egmWrongResultMessage {
+	width: 585px;
+	margin-top: 15px;
+	resize: none;
+}
+
+button#egmWrongResultSend {
+	width: 120px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+td.egmMatchInfo {
+	padding-top: 5px;
+	text-align: left;
+	word-wrap: break-word;
+	vertical-align: top;
+	padding: 0px 6px;
+	line-height: 22px;
+}
+
+tr.egmMatchInfoRowTop>td {
+	padding-top: 8px;
+}
+
+tr.egmMatchInfoRowBottom>td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-bottom: thin solid #cccccc;
+}
+
+td.egmMatchInfoCol1 {
+	font-weight: bold;
+}
+
+input.egmMatchInfoRoute {
+	padding-left: 10px;
+	width: 160px;
+	height: 20px;
+}
+
+input.egmMatchInfoRouteStart {
+	margin-left: -10px;
+}
+
+button.egmMatchInfoSwitchRouting {
+	background-color: white !important;
+	background-image: none !important;
+	height: 22px;
+	vertical-align: top;
+	width: 40px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+button.egmMatchInfoSwitchRouting>img {
+	
+}
+
+button.egmMatchInfoCalculateRouting {
+	margin-left: 7px;
+}
+
+td#egmWrongResultDesc {
+	text-align: left;
+	padding: 5px;
+}
+
+td#egmWrongResultSend {
+	text-align: right;
+}
+
+tr.egm {
+	padding: 5px;
+}
+
+tr.egmRowOdd>td {
+	background-color: #f2f2f2;
+}
+
+tr.egmRowEven>td {
+	background-color: white;
+}
+
+tr.egmTableClubHighlighted>td {
+	background-color: #97CB38;
+	font-weight: bold;
+}
+
+tr.egmTableProm>td {
+	background-color: #97cb38;
+}
+
+tr.egmTablePromPlayoff>td {
+	background-color: #c0ec70;
+}
+
+tr.egmTableReleg>td {
+	background-color: #fed585;
+}
+
+tr.egmTableRelegPlayoff>td {
+	background-color: #fcecca;
+}
+
+tr.egmSnippetHeadRow1 {
+	
+}
+
+tr.egmSnippetHeadRow2 {
+	
+}
+
+tr.egmSnippetHeadRow1>td {
+	vertical-align: bottom;
+	padding-top: 18px;
+}
+
+tr.egmSnippetHeadRow2>td {
+	vertical-align: top;
+	padding-top: 3px;
+	padding-bottom: 18px;
+}
+
+tr.egmAdditionalInformation {
+	text-align: left;
+	height: 5px;
+}
+
+tr.egmAdditionalInformation>td {
+	padding-left: 25px;
+	line-height: 25px;
+}
+
+td.egmDataTableTitle {
+	font-weight: bold;
+}
+
+col.egmMatchCourseMatchFieldCol1 {
+	width: 36px;
+}
+
+col.egmMatchCourseMatchFieldCol2 {
+	
+}
+
+col.egmCourseOfMatchCol1 {
+	
+}
+
+col.egmCourseOfMatchCol2 {
+	width: 24px;
+}
+
+col.egmCourseOfMatchCol3 {
+	width: 59px;
+}
+
+col.egmCourseOfMatchCol4 {
+	width: 24px;
+}
+
+col.egmCourseOfMatchCol5 {
+	
+}
+
+td.egmMatchCourseMatchFieldTitle {
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+div.egmMatchCourseMatchFields {
+	padding: 10px;
+	border-top: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	border-left: thin solid #CCCCCC;
+}
+
+div.egmMatchCourseMatchFieldBase {
+	
+}
+
+div.egmMatchCourseMatchField {
+	background-color: #c0ec70;
+}
+
+table.egmMatchCourseMatchField {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+td.egmMatchCourseEventMinuteHome {
+	text-align: left;
+}
+
+td.egmMatchCourseEventMinuteGuest {
+	text-align: right;
+}
+
+div.egmMatchCourseEventMinuteHome {
+	margin-left: -26px;
+	margin-top: 5px;
+	position: relative;
+	left: 6px;
+	width: 100px;
+}
+
+div.egmMatchCourseEventMinuteGuest {
+	margin-right: -35px;
+	margin-top: 5px;
+	position: relative;
+	left: -56px;
+	width: 100px;
+}
+
+td.egmCourseOfMatchStartTime {
+	padding-top: 10px;
+}
+
+td.egmCourseOfMatchEndTime {
+	padding-bottom: 10px;
+}
+
+div.egmCourseOfMatchStartEndTime {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+span.egmCopurseOfMatchStartEndTimeLable {
+	font-weight: bold;
+}
+
+td.egmCourseOfMatchTD1 {
+	vertical-align: top;
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+td.egmCourseOfMatchTD2 {
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: right;
+}
+
+td.egmCourseOfMatchTD2_5 {
+	vertical-align: top;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(images/57x1.png);
+	background-repeat: repeat-y;
+}
+
+td.egmCourseOfMatchTD3 {
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+td.egmCourseOfMatchTD3_5 {
+	vertical-align: top;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url(images/57x1.png);
+	background-repeat: repeat-y;
+}
+
+td.egmCourseOfMatchTD4 {
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: left;
+}
+
+td.egmCourseOfMatchTD5 {
+	vertical-align: top;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.egmCourseOfMatch2_5 {
+	background-image: url(images/Diamond-left.png);
+	background-repeat: no-repeat;
+	min-height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+div.egmCourseOfMatch3_5 {
+	background-image: url(images/Diamond-right.png);
+	background-repeat: no-repeat;
+	min-height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+td.egmAdditionalInformationCol1 {
+	font-weight: bold;
+}
+
+div.egmPositionsChart {
+	width: 600px;
+	height: 350px;
+}
+
+td.egmSnippetHeadCol1 {
+	padding-left: 6px;
+	font-weight: bold;
+}
+
+td.egmSnippetHeadCol3 {
+	font-weight: bold;
+}
+
+td.egmSnippetHeadIcon {
+	vertical-align: middle !important;
+	padding: 0px !important;
+}
+
+span#egmSnippetHeadMatchInfoTitle {
+	font-weight: bold;
+}
+
+span#egmSnippetHeadMatchInfoContent {
+	margin-left: 0px;
+}
+
+td.egmTableContent {
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: middle;
+	word-wrap: break-word;
+}
+
+td.egmRowOdd {
+	background-color: #f2f2f2;
+}
+
+td.egmRowEven {
+	background-color: white;
+}
+
+td.egmClubInfoTableStartCol2 {
+	width: 300px;
+}
+
+td.egmMatchInfoLineupCol1 {
+	text-align: left !important;
+	vertical-align: middle;
+	padding-left: 7px;
+	height: 26px;
+}
+
+td.egmMatchInfoLineupCol2 {
+	text-align: left !important;
+	vertical-align: middle;
+	padding-left: 7px;
+	height: 26px;
+}
+
+td.egmMatchInfoLineupCol3 {
+	text-align: right !important;
+	vertical-align: middle;
+	height: 26px;
+}
+
+td.egmMatchInfoLineupCol4 {
+	text-align: center !important;
+	vertical-align: middle;
+	padding-right: 6px;
+	height: 26px;
+	border-right: thin solid #cccccc;
+}
+
+td.egmMatchInfoLineupCol5 {
+	text-align: center !important;
+	vertical-align: middle;
+	padding-left: 6px;
+	height: 26px;
+	border-left: thin solid #cccccc;
+}
+
+td.egmMatchInfoLineupCol6 {
+	text-align: left !important;
+	vertical-align: middle;
+	height: 26px;
+}
+
+td.egmMatchInfoLineupCol7 {
+	text-align: right !important;
+	vertical-align: middle;
+	padding-right: 7px;
+	height: 26px;
+}
+
+td.egmMatchInfoLineupCol8 {
+	text-align: right !important;
+	vertical-align: middle;
+	padding-right: 7px;
+	height: 26px;
+}
+
+td.egmClubInfo {
+	padding: 5px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+td.egmClubFixtureList {
+	padding: 5px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+td#egmClubFixtureListInputTimeStart {
+	padding: 8px;
+	text-align: left;
+}
+
+td#egmClubFixtureListInputTimeEnd {
+	padding: 5px;
+	text-align: right;
+}
+
+td.egmClubInfoEmail {
+	padding: 5px;
+	text-align: right;
+	word-wrap: break-word;
+}
+
+td.egmClubInfoTableLeftCol2 {
+	width: 300px;
+}
+
+td.egmClubTeams {
+	line-height: 8px;
+	padding: 7px;
+	text-align: left;
+}
+
+td.egmTab {
+	background-image: url(images/gradients/gruen-verlauf26_1.png);
+	background-repeat: repeat-x;
+	border: thin solid #CCCCCC;
+	font-weight: bold;
+	padding: 5px;
+	cursor: pointer;
+}
+
+td.egmTab>a {
+	color: white;
+}
+
+td.egmTabCurrent {
+	padding: 5px;
+	background-image: url(images/gradients/grau-verlauf-26_1.png);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	border-top: thin solid #cccccc;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	border-bottom: thin solid #F8F7F7;
+}
+
+td.egmTabCurrent>a {
+	cursor: default;
+	color: #444444;
+}
+
+td.egmTabDisabled {
+	padding: 5px;
+	background-image: url(images/gradients/dunkelgrau-verlauf-26_1.png);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	border: thin solid #cccccc;
+	/*border-top: thin solid #cccccc;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;*/
+	color: white;
+}
+
+td.egmTabDisabled>a {
+	cursor: default;
+	color: white;
+}
+
+td.egmTabSpacer {
+	background-color: white;
+	border-bottom: thin solid #CCCCCC;
+	width: 2px;
+}
+
+td.egmCupTabFiller {
+	width: 320px;
+	border-bottom: thin solid #cccccc;
+}
+
+td.egmStatsTabFiller {
+	width: 320px;
+	border-bottom: thin solid #cccccc;
+}
+
+td.egmMatchCalFiller {
+	width: 443px;
+	border-bottom: thin solid #cccccc;
+}
+
+td.egmWidgetRegistrationTabFiller {
+	width: 125px;
+	border-bottom: thin solid #cccccc;
+}
+
+td.egmTabTables {
+	padding-left: 4px;
+	vertical-align: middle;
+}
+
+td.egmTabTablesCurrent {
+	padding-left: 4px;
+	vertical-align: middle;
+}
+
+td.egmTabTablesDisabled {
+	padding-left: 4px;
+	vertical-align: middle;
+}
+
+td#egmTabTablesFiller {
+	width: 80px;
+}
+
+td.egmSnippetControlFirst {
+	padding-left: 6px;
+	vertical-align: middle;
+}
+
+td.egmSnippetControlMiddle {
+	vertical-align: middle;
+	text-align: center;
+}
+
+td.egmSnippetControlLast {
+	padding-right: 6px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+table.egmFixturesChampDateSearch {
+	margin-left: -2px;
+	table-layout: auto;
+}
+
+td.egmSnippetControlMatchInfo {
+	font-weight: bold;
+}
+
+td.egmMatchTable {
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	height: 26px;
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: middle;
+	padding-top: 2px;
+	word-wrap: break-word;
+}
+
+td.egmRowGrouped {
+	font-weight: bold;
+	text-align: left;
+	border-top: thin solid #CCCCCC;
+	border-bottom: thin solid #CCCCCC;
+	vertical-align: middle;
+}
+
+td.egmRowGroupedSubGroup {
+	font-weight: bold;
+	text-align: left;
+	border-top: thin solid #CCCCCC;
+	border-bottom: thin solid #CCCCCC;
+	vertical-align: middle;
+}
+
+td.egmMediaHeader {
+	background-image:
+		url(images/gradients/grau-verlauf-32-alternativ2.png);
+	border: thin solid #CCCCCC;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 5px;
+	text-transform: uppercase;
+}
+
+th.egmCellAlignCenter,td.egmCellAlignCenter {
+	text-align: center !important;
+}
+
+th.egmCellAlignEnd,td.egmCellAlignEnd {
+	text-align: right !important;
+}
+
+th.egmCellAlignStart,td.egmCellAlignStart {
+	text-align: left !important;
+}
+
+th.egmCellNoBorder,td.egmCellNoBorder {
+	border: none !important;
+}
+
+col.egmCrossClassifiedTableACol1 {
+	width: 25px;
+}
+
+col.egmCrossClassifiedTableACol2 {
+	
+}
+
+th.egmCrossTableTable1 {
+	vertical-align: bottom;
+	height: 200px;
+}
+
+div.egmCrossTableTable1Header {
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+col.egmCrossClassifiedTableB {
+	width: 55px;
+}
+
+col.egmCrossClassifiedTableCCol1 {
+	width: 20px;
+}
+
+col.egmCrossClassifiedTableCCol2 {
+	width: 20px;
+}
+
+col.egmSnippetHeadCol1 {
+	width: 85px;
+}
+
+col.egmSnippetHeadCol2 {
+	width: 195px;
+}
+
+col.egmSnippetHeadCol3 {
+	width: 70px;
+}
+
+col.egmSnippetHeadCol4 {
+	
+}
+
+col.egmSnippetHeadMultipleLogosCol1 {
+	width: 85px;
+}
+
+col.egmSnippetHeadMultipleLogosCol2 {
+	width: 165px;
+}
+
+col.egmSnippetHeadMultipleLogosCol3 {
+	
+}
+
+col.egmFixturesCol1 {
+	width: 90px;
+}
+
+col.egmFixturesCol2 {
+	width: 60px;
+}
+
+col.egmFixturesCol3 {
+	
+}
+
+col.egmFixturesCol4 {
+	width: 10px;
+}
+
+col.egmFixturesCol5 {
+	
+}
+
+col.egmFixturesCol6 {
+	width: 75px;
+}
+
+col.egmFixturesCol7 {
+	width: 77px;
+}
+
+col.egmFixtureListCol1 {
+	width: 40px;
+}
+
+col.egmFixtureListCol2 {
+	width: 60px;
+}
+
+col.egmFixtureListCol3 {
+	
+}
+
+col.egmFixtureListCol4 {
+	width: 10px;
+}
+
+col.egmFixtureListCol5 {
+	
+}
+
+col.egmFixtureListCol6 {
+	width: 75px;
+}
+
+col.egmFixtureListCol7 {
+	width: 62px;
+}
+
+col.egmFixturesWithGroupsCol1 {
+	width: 60px;
+}
+
+col.egmFixturesWithGroupsCol2 {
+	
+}
+
+col.egmFixturesWithGroupsCol3 {
+	width: 10px;
+}
+
+col.egmFixturesWithGroupsCol4 {
+	
+}
+
+col.egmFixturesWithGroupsCol5 {
+	width: 75px;
+}
+
+col.egmFixturesWithGroupsCol6 {
+	width: 77px;
+}
+
+col.egmWidgetFixturesCol1 {
+	width: 60px;
+}
+
+col.egmWidgetFixturesCol2 {
+	
+}
+
+col.egmWidgetFixturesCol3 {
+	width: 10px;
+}
+
+col.egmWidgetFixturesCol4 {
+	
+}
+
+col.egmWidgetFixturesCol5 {
+	width: 75px;
+}
+
+col.egmWidgetFixturesCol6 {
+	width: 62px;
+}
+
+table.egmClubInfo {
+	width: 100%;
+}
+
+col.egmClubInfoCol1 {
+	width: 35%;
+}
+
+col.egmClubInfoCol2 {
+	width: 65%;
+}
+
+col.egmClubInfoFixturesCol1 {
+	width: 95px;
+}
+
+col.egmClubInfoFixturesCol2 {
+	width: 60px;
+}
+
+col.egmClubInfoFixturesCol3 {
+	width: 75px;
+}
+
+col.egmClubInfoFixturesCol4 {
+	
+}
+
+col.egmClubInfoFixturesCol5 {
+	width: 10px;
+}
+
+col.egmClubInfoFixturesCol6 {
+	
+}
+
+col.egmClubInfoFixturesCol7 {
+	width: 75px;
+}
+
+col.egmClubInfoFixturesCol8 {
+	width: 22px;
+}
+
+col.egmClubInfoFixtureListCol1 {
+	width: 75px;
+}
+
+col.egmClubInfoFixtureListCol2 {
+	width: 50px;
+}
+
+col.egmClubInfoFixtureListCol3 {
+	
+}
+
+col.egmClubInfoFixtureListCol4 {
+	width: 10px;
+}
+
+col.egmClubInfoFixtureListCol5 {
+	
+}
+
+col.egmClubInfoFixtureListCol6 {
+	width: 75px;
+}
+
+col.egmClubInfoFixtureListCol7 {
+	width: 90px;
+}
+
+col.egmClubInfoFixtureListCol8 {
+	width: 43px;
+}
+
+col.egmTeamCompareFixturesCol1 {
+	width: 100px;
+}
+
+col.egmTeamCompareFixturesCol2 {
+	
+}
+
+col.egmTeamCompareFixturesCol3 {
+	width: 10px;
+}
+
+col.egmTeamCompareFixturesCol4 {
+	
+}
+
+col.egmTeamCompareFixturesCol5 {
+	width: 75px;
+}
+
+col.egmTeamCompareFixturesCol6 {
+	width: 22px;
+}
+
+col.egmClubTeamsCol1 {
+	width: 235px;
+}
+
+col.egmClubTeamsCol2 {
+	
+}
+
+col.egmTableCol1 {
+	width: 30px;
+}
+
+col.egmTableCol2 {
+	
+}
+
+col.egmTableCol3 {
+	width: 50px;
+}
+
+col.egmTableCol4 {
+	width: 30px;
+}
+
+col.egmTableCol5 {
+	width: 30px;
+}
+
+col.egmTableCol6 {
+	width: 30px;
+}
+
+col.egmTableCol7 {
+	width: 30px;
+}
+col.egmTableCol8 {
+	width: 30px;
+}
+col.egmTableCol9 {
+	width: 30px;
+}
+
+col.egmTableCol10 {
+	width: 40px;
+}
+
+col.egmTableCol11 {
+	width: 35px;
+}
+
+col.egmTableCol12 {
+	width: 45px;
+}
+
+col.egmTableClubCol1 {
+	width: 30px;
+}
+
+col.egmTableClubCol2 {
+	
+}
+
+col.egmTableClubCol3 {
+	width: 50px;
+}
+
+col.egmTableClubCol4 {
+	width: 35px;
+}
+
+col.egmTableClubCol5 {
+	width: 45px;
+}
+
+col.egmTableFairplayCol1 {
+	width: 40px;
+}
+
+col.egmTableFairplayCol2 {
+	
+}
+
+col.egmTableFairplayCol3 {
+	width: 50px;
+}
+
+col.egmTableFairplayCol4 {
+	width: 30px;
+}
+
+col.egmTableFairplayCol5 {
+	width: 30px;
+}
+
+col.egmTableFairplayCol6 {
+	width: 30px;
+}
+
+col.egmTableFairplayCol7 {
+	width: 30px;
+}
+
+col.egmTableFairplayCol8 {
+	width: 50px;
+}
+
+col.egmTableFairplayCol9 {
+	width: 50px;
+}
+
+col.egmTableFairplayCol10 {
+	width: 50px;
+}
+
+col.egmMatchInfoCol1 {
+	width: 110px;
+}
+
+col.egmMatchInfoCol2 {
+	
+}
+
+col.egmMatchInfoCol4 {
+	width: 30px;
+}
+
+td.egmCrossTableCell {
+	border-left: thin solid #cccccc;
+}
+
+td.egmCrossTableCellX {
+	color: green;
+	font-weight: bolder;
+}
+
+th.egmCrossTableCell {
+	border-left: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+}
+
+img.egmImagedMatchResult {
+	
+}
+
+div.egmImagedMatchResult {
+	
+}
+
+div.egmImagedMatchResultImage {;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultPlain {
+	display: inline-block;
+	vertical-align: top;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultDeco {
+	display: inline-block;
+	vertical-align: top;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultCross {
+	
+}
+
+div.egmImagedMatchResultCrossImage { /* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultCrossPlain {
+	display: inline-block;
+	vertical-align: top;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultCrossDeco {
+	display: inline-block;
+	vertical-align: top;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultChart {
+	display: inline-block;
+}
+
+div.egmImagedMatchResultChartImage { /* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultChartPlain {
+	display: inline-block;
+	vertical-align: top;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmImagedMatchResultChartDeco {
+	display: inline-block;
+	vertical-align: top;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmMatchInfoChartTooltip {
+	display: inline-block;
+	vertical-align: bottom;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmClubInfoImageData {
+	
+}
+
+div.egmScrollableCrossTable {
+	overflow: auto;
+}
+
+table#egmTeamsBye {
+	width: 100%;
+	padding: 5px;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+}
+
+td#egmTeamsBye {
+	padding: 5px;
+}
+
+div#egmTeamsByeTitle {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+col.egmMatchInfoLineupCol1 {
+	width: 42px;
+}
+
+col.egmMatchInfoLineupCol2 {
+	width: 58px;
+}
+
+col.egmMatchInfoLineupCol3 {
+	width: 168px;
+}
+
+col.egmMatchInfoLineupCol4 {
+	width: 33px;
+}
+
+col.egmMatchInfoLineupCol5 {
+	width: 33px;
+}
+
+col.egmMatchInfoLineupCol6 {
+	
+}
+
+col.egmMatchInfoLineupCol7 {
+	width: 58px;
+}
+
+col.egmMatchInfoLineupCol8 {
+	width: 42px;
+}
+
+col.egmTableTopScorersCol1 {
+	width: 50px;
+}
+
+col.egmTableTopScorersCol2 {
+	
+}
+
+col.egmTableTopScorersCol3 {
+	
+}
+
+col.egmTableTopScorersCol4 {
+	width: 50px;
+}
+
+col.egmAdditionalInformationCol1 {
+	width: 125px;
+}
+
+col.egmAdditionalInformationCol2 {
+	
+}
+
+a.egmMatchInfoLink {
+	color: white;
+}
+
+a.egmMatchInfoLinkDisabled {
+	color: white;
+	cursor: default;
+}
+
+a.egmClubInfoLink {
+	color: #444444;
+}
+
+a.egmClubInfo {
+	color: #444444;
+}
+
+a.egmStatsTypeLink {
+	color: #444444;
+}
+
+a.egmTab {
+	color: white;
+}
+
+a.egmTabCurrent {
+	color: #444444;
+}
+
+a.egmTabDisabled {
+	color: white;
+}
+
+a.egmTabTables {
+	color: #444444;
+}
+
+a.egmTabTablesCurrent {
+	color: #97CB38;
+	font-weight: bold;
+	cursor: default;
+}
+
+a.egmTabTablesDisabled {
+	color: #cccccc;
+}
+
+a.egmMatchDaySwitch {
+	color: #444444;
+}
+
+a.egmMatchInfoSwitch {
+	color: #444444;
+}
+
+a.egmFixturesLink {
+	color: #444444;
+}
+
+a.egmPrint {
+	padding-left: 5px;
+	color: #444444;
+}
+
+a.egmButton {
+	color: white;
+	background-color: #FF7300;
+	padding: 10px;
+	margin: 10px;
+}
+
+a.egmMatchRescheduledDate {
+	color: #FF7300;
+}
+
+a.egmMatchRescheduled {
+	color: #FF7300;
+}
+
+a.egmMatchInfoToFixturesLink {
+	color: #FF7300;
+}
+
+a.egmAssociationLink {
+	color: #444444;
+}
+
+a.egmClubFixturesLink {
+	color: #444444;
+}
+
+a.egmMatchIdentifier {
+	color: #444444;
+}
+
+a.egmAmateurStatsLink {
+	color: #444444;
+}
+
+div.egmMain a.egmUnderlined {
+	text-decoration: underline;
+}
+
+div.egmMain a.egmAmateurStatsLink:hover {
+	text-decoration: none;
+}
+
+div.egmAmateurStatsLink {
+	text-align: right;
+	background-image: url(images/gradients/grau-verlauf-26_1.png);
+	background-repeat: repeat-x;
+	line-height: 26px;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+	padding-right: 6px;
+}
+
+span.egmAmateurStatsLink {
+	font-weight: bold;
+}
+
+div.egmMain span.egmAmateurStatsLink:hover {
+	text-decoration: underline;
+}
+
+div.egmMatchDatePickerContainer {
+	float: right;
+}
+
+input.egmDatePicker {
+	height: 18px;
+	margin-left: 12px;
+	margin-top: 1px;
+	text-align: center;
+	width: 87px;
+}
+
+input.egmDatePickerNoML {
+	margin-left: 0px;
+}
+
+button#egmMatchDateButton {
+	margin-left: 12px;
+	cursor: pointer;
+}
+
+button#egmClubInfo {
+	background-color: #ff6600 !important;
+	background-image: none;
+	color: white !important;
+}
+
+img.egmClubLogo {
+	
+}
+
+img.egmAssociationLogo {
+	
+}
+
+img.egmAssociationMultipleLogo {
+	padding-right: 5px;
+}
+
+img.egmMatchInfoPlayerIcon {
+	padding-left: 5px;
+	padding-right: 3px;
+}
+
+img.egmClubFixtureListVenue {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+img.egmLegendTitle {
+	margin-right: 5px;
+}
+
+img#egmMatchDayScrollIconBigLeft { /* IE7 */
+	*position: relative;
+	*top: -3px;
+}
+
+img#egmMatchDayScrollIconBigRight { /* IE7 */
+	*position: relative;
+	*top: -3px;
+}
+
+img#egmMatchDayScrollIconSmallLeft {
+	margin-left: 5px;
+}
+
+img#egmMatchDayScrollIconSmallRight {
+	margin-right: 5px;
+}
+
+img.egmTriangle {
+	vertical-align: middle;
+	margin-bottom: 3px;
+}
+
+img.egmTriangle2 {
+	vertical-align: middle;
+	margin-bottom: 2px;
+}
+
+img.egmTriangle3 {
+	vertical-align: middle;
+}
+
+td.egmChartTeamName {
+	text-align: left;
+	padding: 5px;
+}
+
+input.egmChartTeamNameCheck {
+	margin-left: 5px;
+}
+
+div.egmChart {
+	border: thin solid #cccccc;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table.egmChartTeams {
+	width: 100%;
+}
+
+div.jqplot-highlighter-tooltip {
+	padding: 3px;
+	opacity: 1;
+	font-size: 100%;
+	z-index: 10;
+	color: #444444;
+	background-color: #F2F2F2;
+}
+
+div.jqplot-xaxis {
+	z-index: 10;
+}
+
+div.jqplot-yaxis {
+	z-index: 10;
+}
+
+.egmJqplotAxisTooltip {
+	padding: 5px;
+}
+
+div.egmNewCaptcha {
+	cursor: pointer;
+	color: rgb(255, 133, 0);
+	margin-left: 0px;
+}
+
+div.egmCaptcha {
+	cursor: pointer;
+	/*display: inline-block;*/
+	/* For IE 7 */
+	/* *display: inline; */
+	/* *zoom: 1; */
+}
+
+div#captchaDiv img {
+	margin-bottom: -15px;
+	margin-top: 5px;
+}
+
+td#egmCaptchaImage {
+	text-align: right;
+}
+
+td#egmCaptchaInput {
+	text-align: left;
+}
+
+label.egmChartTeamName {
+	cursor: pointer;
+}
+
+input.egmInvalidInputData {
+	border: solid 1px #DA1800 !important;
+	background-color: #FFFFAE;
+}
+
+td.egmInvalidInputData {
+	border: solid 1px #DA1800 !important;
+	background-color: #FFFFAE;
+}
+
+td.egmInvalidInputData * {
+	color: #DA1800;
+}
+
+textarea.egmInvalidInputData {
+	border: solid 1px #DA1800 !important;
+	background-color: #FFFFAE;
+}
+
+select.egmMatchDaySelect {
+	text-align: left;
+	width: 125px;
+}
+
+td.egmTeamCompare {
+	height: 26px;
+	vertical-align: middle;
+}
+
+img.egmIconMatchInfo {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+img.egmIconMatchReport {
+	margin-left: -5px;
+	margin-right: -5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+img.egmIconMatchFootage {
+	
+}
+
+td#egmClubFixtureListInputTimeEnd {
+	vertical-align: middle;
+}
+
+col.egmMatchBaseResultCol1 {
+	width: 178px;
+}
+
+col.egmMatchBaseResultCol2 {
+	
+}
+
+col.egmMatchBaseResultCol3 {
+	width: 178px;
+}
+
+col.egmBestTeamByPointsFullCol1 {
+	width: 40px;
+}
+
+col.egmBestTeamByPointsFullCol2 {
+	
+}
+
+col.egmBestTeamByPointsFullCol3 {
+	width: 95px;
+}
+
+col.egmBestTeamByPointsFullCol4 {
+	width: 100px;
+}
+
+col.egmBestTeamByPointsFullCol5 {
+	width: 45px;
+}
+
+col.egmBestTeamByPointsFullCol6 {
+	width: 35px;
+}
+
+col.egmBestTeamByPointsFullCol7 {
+	width: 48px;
+}
+
+col.egmBestTeamByPointsFullCol8 {
+	width: 48px;
+}
+
+col.egmBestTeamByPointsSmallCol1 {
+	width: 30px;
+}
+
+col.egmBestTeamByPointsSmallCol2 {
+	
+}
+
+col.egmBestTeamByPointsSmallCol3 {
+	width: 48px;
+}
+
+col.egmBestTeamByPointsSmallCol4 {
+	width: 38px;
+}
+
+col.egmBestMatchByGoalsFullCol1 {
+	width: 40px;
+}
+
+col.egmBestMatchByGoalsFullCol2 {
+	
+}
+
+col.egmBestMatchByGoalsFullCol3 {
+	width: 10px;
+}
+
+col.egmBestMatchByGoalsFullCol4 {
+	
+}
+
+col.egmBestMatchByGoalsFullCol5 {
+	width: 95px;
+}
+
+col.egmBestMatchByGoalsFullCol6 {
+	width: 100px;
+}
+
+col.egmBestMatchByGoalsFullCol7 {
+	width: 62px;
+}
+
+col.egmBestMatchRemisByGoalsFullCol1 {
+	width: 40px;
+}
+
+col.egmBestMatchRemisByGoalsFullCol2 {
+	
+}
+
+col.egmBestMatchRemisByGoalsFullCol3 {
+	width: 10px;
+}
+
+col.egmBestMatchRemisByGoalsFullCol4 {
+	
+}
+
+col.egmBestMatchRemisByGoalsFullCol5 {
+	width: 95px;
+}
+
+col.egmBestMatchRemisByGoalsFullCol6 {
+	width: 100px;
+}
+
+col.egmBestMatchRemisByGoalsFullCol7 {
+	width: 62px;
+}
+
+col.egmBestTeamByGoalQuotaFullCol1 {
+	width: 40px;
+}
+
+col.egmBestTeamByGoalQuotaFullCol2 {
+	
+}
+
+col.egmBestTeamByGoalQuotaFullCol3 {
+	width: 95px;
+}
+
+col.egmBestTeamByGoalQuotaFullCol4 {
+	width: 100px;
+}
+
+col.egmBestTeamByGoalQuotaFullCol5 {
+	width: 45px;
+}
+
+col.egmBestTeamByGoalQuotaFullCol6 {
+	width: 48px;
+}
+
+col.egmBestTeamByGoalQuotaFullCol7 {
+	width: 48px;
+}
+
+col.egmBestTeamByGoalsAgainstFullCol1 {
+	width: 40px;
+}
+
+col.egmBestTeamByGoalsAgainstFullCol2 {
+	
+}
+
+col.egmBestTeamByGoalsAgainstFullCol3 {
+	width: 95px;
+}
+
+col.egmBestTeamByGoalsAgainstFullCol4 {
+	width: 100px;
+}
+
+col.egmBestTeamByGoalsAgainstFullCol5 {
+	width: 45px;
+}
+
+col.egmBestTeamByGoalsAgainstFullCol6 {
+	width: 35px;
+}
+
+col.egmBestTeamByGoalsAgainstFullCol7 {
+	width: 48px;
+}
+
+col.egmBestTeamByGoalsFullCol1 {
+	width: 40px;
+}
+
+col.egmBestTeamByGoalsFullCol2 {
+	
+}
+
+col.egmBestTeamByGoalsFullCol3 {
+	width: 95px;
+}
+
+col.egmBestTeamByGoalsFullCol4 {
+	width: 100px;
+}
+
+col.egmBestTeamByGoalsFullCol5 {
+	width: 47px;
+}
+
+col.egmBestTeamByGoalsFullCol6 {
+	width: 48px;
+}
+
+col.egmBestTeamByPointQuotaFullCol1 {
+	width: 40px;
+}
+
+col.egmBestTeamByPointQuotaFullCol2 {
+	
+}
+
+col.egmBestTeamByPointQuotaFullCol3 {
+	width: 95px;
+}
+
+col.egmBestTeamByPointQuotaFullCol4 {
+	width: 100px;
+}
+
+col.egmBestTeamByPointQuotaFullCol5 {
+	width: 47px;
+}
+
+col.egmBestTeamByPointQuotaFullCol6 {
+	width: 48px;
+}
+
+col.egmBestTeamByPointQuotaFullCol7 {
+	width: 35px;
+}
+
+col.egmBestTeamByPointQuotaFullCol8 {
+	width: 48px;
+}
+
+col.egmBestTeamByGoalsSmallCol1 {
+	width: 30px;
+}
+
+col.egmBestTeamByGoalsSmallCol2 {
+	
+}
+
+col.egmBestTeamByGoalsSmallCol3 {
+	width: 47px;
+}
+
+col.egmBestTeamByGoalsSmallCol4 {
+	width: 45px;
+}
+
+col.egmBestMatchByGoalsSmallCol1 {
+	width: 30px;
+}
+
+col.egmBestMatchByGoalsSmallCol2 {
+	
+}
+
+col.egmBestMatchByGoalsSmallCol3 {
+	width: 10px;
+}
+
+col.egmBestMatchByGoalsSmallCol4 {
+	width: 114px;
+}
+
+col.egmBestMatchByGoalsSmallCol5 {
+	width: 37px;
+}
+
+col.egmBestMatchRemisByGoalsSmallCol1 {
+	width: 30px;
+}
+
+col.egmBestMatchRemisByGoalsSmallCol2 {
+	
+}
+
+col.egmBestMatchRemisByGoalsSmallCol3 {
+	width: 10px;
+}
+
+col.egmBestMatchRemisByGoalsSmallCol4 {
+	width: 114px;
+}
+
+col.egmBestMatchRemisByGoalsSmallCol5 {
+	width: 37px;
+}
+
+col.egmBestPlayerByGoalsSmallCol1 {
+	width: 30px;
+}
+
+col.egmBestPlayerByGoalsSmallCol2 {
+	
+}
+
+col.egmBestPlayerByGoalsSmallCol3 {
+	width: 50px;
+}
+
+col.egmBestPlayerByGoalsSmallCol4 {
+	width: 40px;
+}
+
+col.egmBestPlayerByGoalsPerMatchSmallCol1 {
+	width: 30px;
+}
+
+col.egmBestPlayerByGoalsPerMatchSmallCol2 {
+	
+}
+
+col.egmBestPlayerByGoalsPerMatchSmallCol3 {
+	width: 95px;
+}
+
+col.egmBestPlayerByGoalsPerMatchSmallCol4 {
+	width: 40px;
+}
+
+col.egmBestPlayerByGoalQuotaCol1 {
+	width: 40px;
+}
+
+col.egmBestPlayerByGoalQuotaCol2 {
+	
+}
+
+col.egmBestPlayerByGoalQuotaCol3 {
+	
+}
+
+col.egmBestPlayerByGoalQuotaCol4 {
+	width: 95px;
+}
+
+col.egmBestPlayerByGoalQuotaCol5 {
+	width: 100px;
+}
+
+col.egmBestPlayerByGoalQuotaCol6 {
+	width: 30px;
+}
+
+col.egmBestPlayerByGoalQuotaCol7 {
+	width: 45px;
+}
+
+col.egmBestPlayerByGoalQuotaCol8 {
+	width: 45px;
+}
+
+col.egmBestPlayerByGoalsPerMatchCol1 {
+	width: 40px;
+}
+
+col.egmBestPlayerByGoalsPerMatchCol2 {
+	
+}
+
+col.egmBestPlayerByGoalsPerMatchCol3 {
+	
+}
+
+col.egmBestPlayerByGoalsPerMatchCol4 {
+	width: 95px;
+}
+
+col.egmBestPlayerByGoalsPerMatchCol5 {
+	width: 100px;
+}
+
+col.egmBestPlayerByGoalsPerMatchCol6 {
+	width: 40px;
+}
+
+col.egmBestPlayerByGoalsTotalCol1 {
+	width: 40px;
+}
+
+col.egmBestPlayerByGoalsTotalCol2 {
+	
+}
+
+col.egmBestPlayerByGoalsTotalCol3 {
+	
+}
+
+col.egmBestPlayerByGoalsTotalCol4 {
+	width: 95px;
+}
+
+col.egmBestPlayerByGoalsTotalCol5 {
+	width: 100px;
+}
+
+col.egmBestPlayerByGoalsTotalCol6 {
+	width: 30px;
+}
+
+col.egmBestPlayerByGoalsTotalCol7 {
+	width: 40px;
+}
+
+table.egmMatchBaseResult {
+	border-top: thin solid #cccccc;
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	width: 100%;
+	height: 142px;
+}
+
+td.egmMatchBaseTeam {
+	vertical-align: bottom;
+	padding-bottom: 6px;
+}
+
+table.egmMatchBaseTeam {
+	width: 100%;
+}
+
+tr.egmMatchBaseTeamLogo>td {
+	text-align: center;
+}
+
+tr.egmMatchBaseTeamClubname>td {
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 0.1pt;
+	padding-top: 4px;
+	vertical-align: top
+}
+
+td.egmMatchBaseResult {
+	vertical-align: top;
+	text-align: center;
+}
+
+div.egmMatchResultTop {
+	margin-top: 21px;
+	margin-bottom: 7px;
+}
+
+div.egmMatchResultBottom {
+	margin-top: 10px;
+}
+
+div.egmMatchResultSeparator {
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: #cccccc;
+	height: 1px;
+}
+
+div.egmMatchResultDate {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 0.1pt;
+	line-height: 16px;
+	white-space: nowrap;
+}
+
+div.egmMatchResultInfo {
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: 0.1pt;
+	line-height: 16px;
+	white-space: nowrap;
+}
+
+div.egmImagedMatchInfoResult {
+	
+}
+
+div.egmImagedMatchInfoResultImage {;
+	
+}
+
+div.egmImagedMatchInfoResultPlain {
+	display: inline-block;
+	font-size: 22px;
+	vertical-align: top;
+	position: relative;
+	/* For IE 7 */
+	*display: inline;
+	*zoom: 1;
+}
+
+div.egmImagedMatchInfoResultDeco {
+	display: inline-block;
+	font-size: 22px;
+	margin-left: -1px;
+	font-weight: bold;
+	vertical-align: top;
+	position: relative;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline;
+}
+
+div.egmHalfTimeResult {
+	display: inline-block;
+	color: #999999;
+	font-size: 22px;
+	margin-left: 3px;
+	vertical-align: top;
+	position: relative;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline;
+}
+
+div.egmInlineBlock {
+	display: inline-block;
+}
+
+select.egmCompRoundSelect {
+	width: 225px;
+}
+
+select.egmCompGroupSelect {
+	margin-left: 16px;
+	width: 225px;
+}
+
+select.egmSeason {
+	width: 125px;
+}
+
+select.egmSaisonClubStats {
+	width: 65px;
+}
+
+div.egmMain select.egmTeamType {
+	width: 140px;
+	height: 21px;
+}
+
+div.egmMain select.egmTimePeriod {
+	width: 102px;
+	height: 21px;
+}
+
+div.egmMain select.egmAssociation {
+	width: 140px;
+	height: 21px;
+}
+
+div.egmMain select.egmStatsType {
+	width: 170px;
+	height: 21px;
+}
+
+div.egmClubFixtureListInvalidTimespan {
+	margin-top: 10px;
+}
+
+div.egmMatchCalendarNoResult {
+	padding-top: 10px;
+	padding-left: 10px;
+	border-top: thin solid #cccccc;
+}
+
+table.egmMatchCalendarControl {
+	table-layout: fixed;
+}
+
+col.egmMatchCalendarControlCol1 {
+	width: 20px;
+}
+
+col.egmMatchCalendarControlCol2 {
+	width: 140px;
+}
+
+col.egmMatchCalendarControlCol3 {
+	width: 95px;
+}
+
+col.egmMatchCalendarControlCol4 {
+	
+}
+
+col.egmMatchCalendarControlCol5 {
+	
+}
+
+col.egmMatchCalendarControlCol6 {
+	
+}
+
+col.egmMatchCalendarContentCol1 {
+	width: 55px;
+}
+
+col.egmMatchCalendarContentCol2 {
+	width: 75px;
+}
+
+col.egmMatchCalendarContentCol3 {
+	
+}
+
+col.egmMatchCalendarContentCol4 {
+	width: 10px;
+}
+
+col.egmMatchCalendarContentCol5 {
+	
+}
+
+col.egmMatchCalendarContentCol6 {
+	width: 75px;
+}
+/* SPKL */
+/* col.egmMatchCalendarContentCol7 { */
+/* 	width: 45px; */
+/* } */
+col.egmMatchCalendarContentCol7 {
+	width: 35px;
+}
+
+tr.egmRowBold>td {
+	font-weight: bold;
+}
+
+tr.egmRowPaddedBottom1>td {
+	padding-bottom: 5px;
+}
+
+table.egmMatchCalendarControl>tbody>tr>th,table.egmMatchCalendarControl>tbody>tr>td
+	{
+	text-align: left;
+	vertical-align: middle;
+}
+
+table.egmMatchCalendarControl input.egmDatePicker {
+	height: 19px;
+}
+
+input.egmMatchCalendarZipCode {
+	width: 70px;
+	height: 19px;
+	padding-left: 2px;
+}
+
+select.egmTeamTypeMC {
+	width: 100%;
+}
+
+select.egmCompetitionTypeMatchCal {
+	width: 100%;
+}
+
+td.egmMatchCalendarTeamType {
+	padding-right: 7px;
+}
+
+td.egmMatchCalendarCompetitionType {
+	padding-right: 7px;
+}
+
+table.egmSnippetControlAmateurStats {
+	height: 70px;
+}
+
+tr.egmAmateurStatsChooseTimePeriod {
+	height: 40px;
+}
+
+td.egmAmateurStatsChooseTimePeriod {
+	vertical-align: middle;
+	padding-left: 11px;
+	padding-top: 3px;
+}
+
+span.egmAmateurStatsChooseTimePeriod {
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+span.egmAmateurStatsChooseTimePeriod2 {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+table.egmSnippetControlAmateurStats td.egmSnippetControlFirst,table.egmSnippetControlAmateurStats td.egmSnippetControlLast
+	{
+	padding-bottom: 5px;
+}
+
+div.egmAmateurStatsSnippet {
+	width: 302px;
+	border: none;
+	background-color: #333;
+	margin-bottom: 6px;
+	display: inline-block;
+	*zoom: 1;
+	*display: inline !important;
+}
+
+div.egmAmateurStatsSnippet h2 {
+	display: block;
+	background: url(images/fb-logo-kl.png) no-repeat 6px;
+	width: 262px;
+	padding: 5px 0 4px 28px;
+	font-size: 12px;
+	color: white;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+	font-family: arial, helvetica, freesans, sans-serif;
+}
+
+div.egmAmateurStatsSnippetInfo {
+	background-color: #F2F2F2;
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 5px 7px;
+}
+
+div.egmAmateurStatsResultNote {
+	line-height: 18px;
+	border: thin solid #cccccc;
+	padding: 5px 10px;
+}
+
+div.egmAmateurStatsSnippet table {
+	table-layout: fixed;
+}
+
+div.egmAmateurStatsActualityInfo {
+	line-height: 26px;
+	padding-left: 7px;
+}
+
+div.egmPageNavigator {
+	border-left: thin solid #cccccc;
+	border-right: thin solid #cccccc;
+	border-bottom: thin solid #cccccc;
+	background-image: url(images/gradients/grau-verlauf-26_1.png);
+	background-repeat: repeat-x;
+	height: 26px;
+	text-align: center;
+}
+
+table.egmPageNavigator {
+	table-layout: auto;
+	height: 26px;
+	display: inline-table;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+}
+
+td.egmPageNavigator {
+	vertical-align: middle;
+}
+
+td.egmPageNavigatorPages {
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.egmPageNavigatorPages {
+	table-layout: fixed;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-table;
+	/* For IE 7 */
+	*zoom: 1;
+	*display: inline !important;
+	margin-right: 5px;
+}
+
+table.egmPageNavigatorPages td {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+table.egmPageNavigatorPages a {
+	color: #444444;
+}
+
+div.egmPageNavigatorPagesCurrent {
+	font-weight: bold;
+}
+
+col.egmPageNavigatorCol1Col5 {
+	width: 10px;
+}
+
+col.egmPageNavigatorCol2Col4 {
+	width: 10px;
+}
+
+col.egmPageNavigatorCol3 {
+	
+}
+
+img.egmTeamCompareCard {
+	margin-right: -2px;
+	margin-left: 2px;
+}
+
+button.egmClubStatsShow {
+	cursor: pointer;
+}
+
+table.egmSnippetControlMatchCal {
+	height: 70px;
+	background-image: url(images/gradients/grau-verlauf-34.png);
+	background-repeat: repeat-x;
+	background-color: #edebeb;
+}
+
+div.egmMain button.ui-multiselect {
+	background-image: url(images/gradients/hellgrau-verlauf-20_1.png);
+	background-repeat: repeat-x;
+	border: 1px solid #CCCCCC;
+	color: #444444;
+	line-height: 18px;
+	padding: 0 0 0 7px;
+	font-weight: normal;
+}
+
+div.egmMain td.egmMatchCalendarTeamType button {
+	width: 150px !important;
+}
+
+div.egmMain td.egmMatchCalendarCompetitionType button {
+	width: 160px !important;
+}
+
+span.egmAmateurStatsChooseTimePeriod3 {
+	padding: 0 2px 0 2px;
+}
+
+span.egmAmateurStatsChooseTimePeriod3>img {
+	vertical-align: bottom;
+	padding: 0 2px 0 2px;
+}
+
+table.egmMatchCalendarControl tr:first-child td {
+	line-height: 23px;
+}
+
+span.egmMatchCalPostalCode>img {
+	vertical-align: text-bottom;
+}
+
+table.egmStatsTypeControl {
+	border-left: thin solid #CCCCCC;
+	border-right: thin solid #CCCCCC;
+	border-top: thin solid #CCCCCC;
+	width: 100%;
+}
+
+td.egmStatsTypeControl {
+	line-height: 31px;
+	padding: 0 9px 0 9px;
+	font-weight: bold;
+}
+
+div.egmDivAlignCenter {
+	text-align: center;
+}
+
+img.egmLiveTickerIcon {
+	margin-left: 2px;
+	margin-right: -1px;
+}
+
+a.egmLiveTicker {
+	color: #0862b0;
+	font-weight: bold;
+}
+
+/* bfv specific css*/
+
+td.egmTab {
+	background-image:
+		url(images/gradients/blau-verlauf26_1.png);
+}
+
+div.egmMain button {
+	background-image:
+		url(images/gradients/blau-verlauf18_1.png);
+}
+
+span.egmLegendKey {
+	color: #5E9AD9;
+}
+
+a.egmTabTablesCurrent {
+	color: #5E9AD9;
+}
+
+div.egmTooltipHeader {
+	background-image:
+		url(images/gradients/blau-verlauf26.png);
+}
+
+td.egmDummyLogoClub {
+	background-image: url(images/dummy_logo.png);
+	background-position: 50px center;
+    background-repeat: no-repeat;
+    background-size: 80px 90px;
+}
+
+
+td.egmDummyLogoAssociation {
+	background-image: url(images/dummy_logo.png);
+    background-repeat: no-repeat;
+    background-size: 40px 50px;
+}
+
+th.egmClubHighlighted,td.egmClubHighlighted {
+	font-weight: bold;
+}
+
+th.egmClubHighlighted a,td.egmClubHighlighted a {
+	font-weight: bold;
+}
+
+div.egmMain a.egmNoHoverNoCursor:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+table.egmCrossClassified,  table.egmCrossClassified table {
+	table-layout: fixed;
+}
+
+img.egmClubLogo24 {
+	width: 24px;
+	height: 24px;
+}
+
+div.egmMatchInfoAddress {
+	display: inline-block;
+    margin-left: 10px;
+	/* For IE 7 */
+    *zoom: 1;
+	*display: inline !important;
+}
+
+img.egmIconMatchInfo, img.egmMatchCourseIcon, img.egmLiveTickerIcon {
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.egmMain a.egmMatchCourseIcon:hover, div.egmMain a.egmMatchTvIcon:hover {
+	text-decoration: none;
+}
+
+img.egmMatchInfoAddress:hover {
+	cursor: pointer;
+}
+
+img.egmClubWamFavIcon {
+	width: 20px;
+}
+
+td.egmCrossTableFirstOuterCell {
+	width: 30%;
+	vertical-align: top !important;
+}
+
+td.egmCrossTableMiddleOuterCell {
+	width: 60%;
+}
+
+td.egmCrossTableLastOuterCell {
+	width: 10%;
+	vertical-align: top !important;
+}
+
+table.egmLegendTable td {
+    text-align: left;
+}
+
+table.egmClubInfoTable a.egmClubInfoAddressLink {
+  text-transform: none;
+}
+
+div.egmMatchLiveTickerDisclaimer {
+	font-size: 11px;
+	font-style: italic;
+	color: #343434;
+}
+
+div.egmMatchLiveTickerDisclaimerSpacer {
+	padding-bottom: 20px;
+}
+
+td.egmTopScorersEmpty {
+	text-align: left !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}

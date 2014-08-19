@@ -1,0 +1,107 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+@import "util/_breakpoints.scss";
+
+@import "partials/_joomla.scss";
+
+
+@import "util/_variables.scss";
+@import "partials/_mixins.scss";
+@import "partials/_typography.scss";
+
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+div.box {
+  background-color: rgb(245,255,245);
+  background-color: rgba(255,255,255,0.9);
+  margin: 0.5em 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 0.2em;
+  @include respond-to('small'){
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+@import "partials/_grid.scss";
+
+@import "partials/_header.scss";
+
+@import "partials/_navigation.scss";
+
+#main_container {
+  background-color: transparent;
+  @include box-sizing(border-box);
+}
+
+#left-side-bottom, #left-side-top {
+  font-size: 0.9em;
+}
+
+#left-side-top:empty {
+  display: none;
+}
+
+#content {
+  padding: 10px;
+  @include box-sizing(border-box);
+  min-height: 15em;
+}
+
+#aside {
+  padding: 5px;
+  @include box-sizing(border-box);
+  
+}
+
+#footer {
+  font-size: 0.7em;
+  //min-height: 2em;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.3em 2em;
+  @include pie-clearfix();
+}
+
+#footer_nav li{
+  margin: 0;
+}
+
+#content h2:first-child {
+  margin-top: 0px;
+}
+
+div.blog div.items-leading{
+  > div {
+  margin-bottom: 3em;
+  }
+  > div:last-child {
+    margin-bottom: 0;
+  }  
+}
+
+div.userdata input {
+  max-width: 95%;
+}
+
+@import "partials/_ad.scss";

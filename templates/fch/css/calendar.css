@@ -1,0 +1,106 @@
+/* line 1, ../scss/calendar.scss */
+#calendar {
+  width: 100%;
+}
+/* line 4, ../scss/calendar.scss */
+#calendar .calMain {
+  width: 90%;
+  min-width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 11, ../scss/calendar.scss */
+#calendar table {
+  border: 1px solid black;
+  width: 100%;
+}
+/* line 16, ../scss/calendar.scss */
+#calendar table tbody {
+  font-size: 0.9em;
+}
+/* line 20, ../scss/calendar.scss */
+#calendar table th {
+  text-align: center;
+}
+/* line 24, ../scss/calendar.scss */
+#calendar table td {
+  border: 1px dotted lightgray;
+  text-align: center;
+  background-color: whitesmoke;
+}
+/* line 30, ../scss/calendar.scss */
+#calendar table td .day-number {
+  margin: 1px;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 0;
+  border-radius: 3px;
+  border: 2px solid whitesmoke;
+}
+/* line 39, ../scss/calendar.scss */
+#calendar table td .out {
+  color: grey;
+}
+/* line 43, ../scss/calendar.scss */
+#calendar table td .match {
+  position: relative;
+}
+/* line 45, ../scss/calendar.scss */
+#calendar table td .match .popup {
+  position: absolute;
+  right: 110%;
+  top: -150%;
+  display: none;
+  background-color: whitesmoke;
+  padding: 0.2em;
+  border: 2px solid lightgrey;
+  border-radius: 8px;
+  z-index: 1300;
+  color: black;
+}
+/* line 56, ../scss/calendar.scss */
+#calendar table td .match .popup div {
+  margin: 0.3em 0;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+/* line 61, ../scss/calendar.scss */
+#calendar table td .match .popup span {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 66, ../scss/calendar.scss */
+#calendar table td .match .popup span.summary {
+  display: block;
+  margin-bottom: 0.4em;
+}
+/* line 70, ../scss/calendar.scss */
+#calendar table td .match .popup span.time {
+  font-size: 0.9em;
+  margin-right: 1em;
+}
+/* line 74, ../scss/calendar.scss */
+#calendar table td .match .popup span.location {
+  font-size: 0.85em;
+}
+/* line 78, ../scss/calendar.scss */
+#calendar table td .match:hover .popup, #calendar table td .match:focus .popup {
+  display: block;
+}
+/* line 83, ../scss/calendar.scss */
+#calendar table td .match1 {
+  border-left: 2px solid red;
+}
+/* line 86, ../scss/calendar.scss */
+#calendar table td .match2 {
+  border-right: 2px solid blue;
+}
+/* line 89, ../scss/calendar.scss */
+#calendar table td .matchA {
+  border-top: 2px solid green;
+}
+/* line 92, ../scss/calendar.scss */
+#calendar table td .matchC {
+  border-bottom: 2px solid yellow;
+}
