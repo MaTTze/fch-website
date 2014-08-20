@@ -2,7 +2,7 @@
 <extension type="module" version="3.1.0" client="site" method="upgrade">
     <name>Match Calendar</name>
     <author>Matthias Gollwitzer</author>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>shows a calendar with bfv-match data</description>
     <files>
         <filename>mod_match_calendar.xml</filename>
@@ -23,6 +23,9 @@
     			<field type="text" name="match2" label="Link 2"/>
     			<field type="text" name="match3" label="Link 3"/>
     			<field type="text" name="match4" label="Link 4"/>
+    		</fieldset>
+    		<fieldset name="caching" label="Caching Config">
+    			<field type="checkbox" name="caching" label="Use caching?" description="cache to ical files locally" /> 
     		</fieldset>
     	</fields>
     </config>

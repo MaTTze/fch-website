@@ -117,12 +117,15 @@ class modMatchCalendarHelper
 	private static function getMatches($params)
 	{
 		$matches = array();
-		
+		$caching = $params->get("caching");
 		for ($i=1; $i < 5; $i++) {
 			$tag = 'match'.$i;
 			$link = $params->get($tag);
 			if ($link) {
-				$matches[$tag] = self::parse_ical($link);
+				$string = self::get_ical($link, $caching);
+				if ($string) {
+					$matches[$tag] = self::parse_ical($string);
+				}
 			}
 		}
 		
@@ -135,19 +138,8 @@ class modMatchCalendarHelper
 	/**
 	 * 
 	 */
-	private static function parse_ical($filename){
-		$ctx = stream_context_create(array(
- 			'http' => array(
-    			'timeout' => 1
-        	)
-		));
-		$string = file_get_contents($filename,0,$ctx);
-		//$firephp = FirePHP::getInstance(true);
- 		//$firephp->log('starting to parse');
-		if (!$string) {
-			//$firephp->log('Can\'t open file' . $filename . ' for reading');
-			return array();
-		}
+	private static function parse_ical($string){
+		
 		$string = htmlspecialchars($string);
 		// Replace \r\n with \n
 		$string = str_replace("\r\n", "\n", $string);
@@ -219,6 +211,32 @@ class modMatchCalendarHelper
 			return $a['start'] < $b['start'] ? -1 : 1;
 		});
 		return $events;
+	}
+
+	private function get_ical($url, $caching)
+	{
+		$filename = JPATH_ROOT.'/tmp/mod_match_calendar-'.md5($url).'.cache';
+		if ($caching) {
+			if (file_exists($filename) && (filemtime($filename) + 10800/* 3*60*60 sec */ >= time())){
+				return file_get_contents($filename);
+			}
+		}
+		$ctx = stream_context_create(array(
+ 			'http' => array(
+    		'timeout' => 1
+        	)
+		));
+		$string = file_get_contents($url,0,$ctx);
+		//$firephp = FirePHP::getInstance(true);
+ 		//$firephp->log('starting to parse');
+		if (!$string) {
+			//$firephp->log('Can\'t open file' . $filename . ' for reading');
+			return false;
+		}
+		if ($caching){
+			file_put_contents($filename, $string);
+		}
+		return $string;
 	}
 }
 ?>
